@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-a9a87793e564d903b9dfc6c853735a758e51d8eb.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-43925fa82ff8933843b0121f92fed00db99b8af0.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-40898ffe30ddbf7edc869c7e4173980a74f05eae.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-d17c1226cb995443f57ac41bed0199952d0d2e5d.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-989e28e07f69982fef6ceee9ed0153aebfac40cc.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-68b88f373469e9c142262ccdcf25033db22a7e0e.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-e027373ced6234e193120187c28c99df351064de.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-3d749b879603959ea4e17f8c28ca3287bc64980a.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-59c0e342c235bf06898ecdcfb58927069361ce48.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-1bfc33b0d5e193e8102dcebef0780fd28f33ed70.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-4ae19e684e16b3f86c59f5be79766cd970081254.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-32b7578ca1cc9a5886ffb51a130a46e58b1a77dd.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-846d86fbf31d4136e718b79229566e1d2d496154.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-541b0bb0682d322d4294db94ae42bbd826de058f.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-cfc04801ef0b7a7b60c4478b2f31940f080c867d.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-9fa5bd027a599060dc654f5a706a8bc87e8c8179.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-28f86587e081e69407d8647851224232a00cbec0.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-098d8cfe8b212c59346da88628c7df17ea2b9fbe.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-4f518e20202941cf1a84b06e437725f15fe59287.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-10e121d9e0cf003885ca0b0c834845676d647019.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-64d479d9ad4e04fdf0a7ddc1417701cd70f47fff.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-dc3dce98d7d196fc9997f6454128c2521783ed6c.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-be1261d719843915658c691f374dd16645e3e86a.jar" />
+    </item>
+    <item
+        jar="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/pre-dexed/debug/classes-f6f3b4fea0431b30492baad7cee14cda2f1a09c3.jar" />
+    </item>
+
+</items>
