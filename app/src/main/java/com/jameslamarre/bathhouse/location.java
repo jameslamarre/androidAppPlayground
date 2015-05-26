@@ -5,23 +5,32 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
+import com.kl.kitlocate.class_interface.KLGeofence;
+import com.kl.kitlocate.interfaces.KLLocation;
+import com.kl.kitlocate.interfaces.KitLocate;
+import com.kl.kitlocate.utilities.interfaces.IKLAddRemoveGeofenceResponse;
 
 public class location extends FragmentActivity implements
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
+
+    // for test text below
+    TextView txtStatus;
 
     public static final String TAG = location.class.getSimpleName();
 
@@ -35,6 +44,7 @@ public class location extends FragmentActivity implements
 
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
+    private Marker myLocationMarker;
 
 
     @Override
@@ -42,6 +52,8 @@ public class location extends FragmentActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         setUpMapIfNeeded();
+
+        txtStatus = (TextView)findViewById(R.id.TextStatus);
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
         .addConnectionCallbacks(this)
@@ -59,6 +71,38 @@ public class location extends FragmentActivity implements
         Intent intent=new Intent(getApplicationContext(),instructions.class);
         startActivity(intent);
         */
+
+        // "04d62c09-cb8f-4dd1-9bbf-b9b9dfcaa12a" is a free Developer key. It works only on the examples.
+        // to create your own Developer key for your App,
+        // Access: http://developer.kitlocate.com
+        // Register for free and create your application.
+        // For any problem please don't hesitate: ContactUs@KitLocate.com
+        KitLocate.initKitLocate(this, "76bc79ad-2b47-4376-a757-26fec1191f9d");
+
+        // Register for Geofencing location
+        KLLocation.registerGeofencing(location.this, GeofenceHandler.class);
+
+        KLLocation.addGeofence(location.this, 51.450509f, -0.004453f, 500, KLGeofence.Type.IN, "HITHER GREEN", new IKLAddRemoveGeofenceResponse() {
+            @Override
+            public void success(int status, KLGeofence geofence) {
+               setStatusText("Running yay");
+            }
+
+            @Override
+            public void fail(int status, KLGeofence geofence) {
+                setStatusText("Not running but this shouldn't work anyway");
+            }
+        });
+// NEXT, USE ADDED GEOLOCATION TO SEND A TEXT VIEW ONCE ENTERED
+    }
+
+    public void setStatusText(final String message) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                txtStatus.setText(message);
+            }
+        });
     }
 
     @Override
@@ -128,9 +172,11 @@ public class location extends FragmentActivity implements
         MarkerOptions options = new MarkerOptions()
                 .position(latLng)
                 .title("I am here!");
-        mMap.addMarker(options);
+        //mMap.addMarker(options);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+        CameraUpdate zoom=CameraUpdateFactory.zoomTo(16);
 
+        mMap.animateCamera(zoom);
     }
 
     @Override

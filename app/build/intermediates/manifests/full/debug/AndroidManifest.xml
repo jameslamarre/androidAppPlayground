@@ -14,12 +14,49 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    // kitlocate permissions
+    <permission
+        android:name="com.jameslamarre.bathhouse.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.jameslamarre.bathhouse.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <service
+            android:name="com.kl.kitlocate.services.KLLocationService"
+            android:label="KitLocate Service" />
+        <service
+            android:name="com.kl.kitlocate.services.KLAccelerometerService"
+            android:label="KitLocate IDLE Service" />
+        <service android:name="com.kl.kitlocate.external.KLGcmIntentService" />
+
+        <receiver
+            android:name="com.kl.kitlocate.receivers.KLBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.kl.kitlocate.receivers.KLGcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.jameslamarre.bathhouse" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name="com.jameslamarre.bathhouse.location"
             android:label="@string/title_activity_location" >

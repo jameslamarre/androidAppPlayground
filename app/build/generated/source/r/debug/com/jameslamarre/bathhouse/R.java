@@ -1908,10 +1908,12 @@ containing a value of this type.
         public static final int ic_plusone_small_off_client=0x7f020057;
         public static final int ic_plusone_standard_off_client=0x7f020058;
         public static final int ic_plusone_tall_off_client=0x7f020059;
-        public static final int powered_by_google_dark=0x7f02005a;
-        public static final int powered_by_google_light=0x7f02005b;
+        public static final int point=0x7f02005a;
+        public static final int powered_by_google_dark=0x7f02005b;
+        public static final int powered_by_google_light=0x7f02005c;
     }
     public static final class id {
+        public static final int TextStatus=0x7f0d0065;
         public static final int action_bar=0x7f0d0055;
         public static final int action_bar_activity_content=0x7f0d0000;
         public static final int action_bar_container=0x7f0d0054;
@@ -1925,7 +1927,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0052;
         public static final int action_mode_bar_stub=0x7f0d0051;
         public static final int action_mode_close_button=0x7f0d003a;
-        public static final int action_settings=0x7f0d0065;
+        public static final int action_settings=0x7f0d0066;
         public static final int activity_chooser_view_content=0x7f0d003b;
         public static final int adjust_height=0x7f0d0017;
         public static final int adjust_width=0x7f0d0018;
@@ -2064,15 +2066,16 @@ containing a value of this type.
         public static final int gtm_analytics=0x7f060000;
     }
     public static final class string {
+        public static final int TextStatus=0x7f07002d;
         public static final int abc_action_bar_home_description=0x7f070000;
-        public static final int abc_action_bar_home_description_format=0x7f07002d;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f07002e;
+        public static final int abc_action_bar_home_description_format=0x7f07002e;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f07002f;
         public static final int abc_action_bar_up_description=0x7f070001;
         public static final int abc_action_menu_overflow_description=0x7f070002;
         public static final int abc_action_mode_done=0x7f070003;
         public static final int abc_activity_chooser_view_see_all=0x7f070004;
         public static final int abc_activitychooserview_choose_application=0x7f070005;
-        public static final int abc_search_hint=0x7f07002f;
+        public static final int abc_search_hint=0x7f070030;
         public static final int abc_searchview_description_clear=0x7f070006;
         public static final int abc_searchview_description_query=0x7f070007;
         public static final int abc_searchview_description_search=0x7f070008;
@@ -2080,10 +2083,10 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f07000a;
         public static final int abc_shareactionprovider_share_with=0x7f07000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f07000c;
-        public static final int abc_toolbar_collapse_description=0x7f070030;
-        public static final int accept=0x7f070031;
-        public static final int action_settings=0x7f070032;
-        public static final int app_name=0x7f070033;
+        public static final int abc_toolbar_collapse_description=0x7f070031;
+        public static final int accept=0x7f070032;
+        public static final int action_settings=0x7f070033;
+        public static final int app_name=0x7f070034;
         public static final int common_android_wear_notification_needs_update_text=0x7f07000d;
         public static final int common_android_wear_update_text=0x7f07000e;
         public static final int common_android_wear_update_title=0x7f07000f;
@@ -2115,17 +2118,17 @@ containing a value of this type.
         public static final int common_signin_button_text=0x7f070029;
         public static final int common_signin_button_text_long=0x7f07002a;
         public static final int commono_google_play_services_api_unavailable_text=0x7f07002b;
-        public static final int create_calendar_message=0x7f070034;
-        public static final int create_calendar_title=0x7f070035;
-        public static final int decline=0x7f070036;
-        public static final int google_maps_key=0x7f070037;
-        public static final int hello_world=0x7f070038;
-        public static final int store_picture_message=0x7f070039;
-        public static final int store_picture_title=0x7f07003a;
-        public static final int text_1=0x7f07003b;
-        public static final int text_2=0x7f07003c;
-        public static final int text_3=0x7f07003d;
-        public static final int title_activity_location=0x7f07003e;
+        public static final int create_calendar_message=0x7f070035;
+        public static final int create_calendar_title=0x7f070036;
+        public static final int decline=0x7f070037;
+        public static final int google_maps_key=0x7f070038;
+        public static final int hello_world=0x7f070039;
+        public static final int store_picture_message=0x7f07003a;
+        public static final int store_picture_title=0x7f07003b;
+        public static final int text_1=0x7f07003c;
+        public static final int text_2=0x7f07003d;
+        public static final int text_3=0x7f07003e;
+        public static final int title_activity_location=0x7f07003f;
         public static final int wallet_buy_button_place_holder=0x7f07002c;
     }
     public static final class style {

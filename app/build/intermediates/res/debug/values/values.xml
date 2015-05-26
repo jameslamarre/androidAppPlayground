@@ -213,6 +213,9 @@
     <!-- From: file:/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">7327000</integer>
+    <!-- From: file:/Users/jameslamarre/Desktop/android/Bathhouse/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="TextStatus"/>
     <!-- From: file:/Users/jameslamarre/Desktop/android/Bathhouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>

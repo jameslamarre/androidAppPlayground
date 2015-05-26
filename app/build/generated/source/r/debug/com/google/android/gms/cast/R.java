@@ -107,8 +107,8 @@ public final class R {
 		public static final int ic_plusone_small_off_client = 0x7f020057;
 		public static final int ic_plusone_standard_off_client = 0x7f020058;
 		public static final int ic_plusone_tall_off_client = 0x7f020059;
-		public static final int powered_by_google_dark = 0x7f02005a;
-		public static final int powered_by_google_light = 0x7f02005b;
+		public static final int powered_by_google_dark = 0x7f02005b;
+		public static final int powered_by_google_light = 0x7f02005c;
 	}
 	public static final class id {
 		public static final int adjust_height = 0x7f0d0017;
@@ -143,7 +143,7 @@ public final class R {
 		public static final int gtm_analytics = 0x7f060000;
 	}
 	public static final class string {
-		public static final int accept = 0x7f070031;
+		public static final int accept = 0x7f070032;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f07000d;
 		public static final int common_android_wear_update_text = 0x7f07000e;
 		public static final int common_android_wear_update_title = 0x7f07000f;
@@ -175,11 +175,11 @@ public final class R {
 		public static final int common_signin_button_text = 0x7f070029;
 		public static final int common_signin_button_text_long = 0x7f07002a;
 		public static final int commono_google_play_services_api_unavailable_text = 0x7f07002b;
-		public static final int create_calendar_message = 0x7f070034;
-		public static final int create_calendar_title = 0x7f070035;
-		public static final int decline = 0x7f070036;
-		public static final int store_picture_message = 0x7f070039;
-		public static final int store_picture_title = 0x7f07003a;
+		public static final int create_calendar_message = 0x7f070035;
+		public static final int create_calendar_title = 0x7f070036;
+		public static final int decline = 0x7f070037;
+		public static final int store_picture_message = 0x7f07003a;
+		public static final int store_picture_title = 0x7f07003b;
 		public static final int wallet_buy_button_place_holder = 0x7f07002c;
 	}
 	public static final class style {
