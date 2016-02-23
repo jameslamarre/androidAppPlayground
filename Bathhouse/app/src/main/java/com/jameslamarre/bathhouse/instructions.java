@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
 
 import com.google.android.gms.common.api.GoogleApiClient;
 
@@ -24,7 +26,7 @@ public void checkFirstRun() {
 */
 
 public class instructions extends ActionBarActivity {
-        private GoogleApiClient mGoogleApiClient;
+    private GoogleApiClient mGoogleApiClient;
 
 
     @Override
